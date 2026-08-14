@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #12182B;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+button, input {
+  font-family: inherit;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* --- Minimal utility classes used by App.jsx (Tailwind-equivalent subset) --- */
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.flex-1 { flex: 1 1 0%; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.overflow-hidden { overflow: hidden; }
+.overflow-y-auto { overflow-y: auto; -webkit-overflow-scrolling: touch; }
+.w-full { width: 100%; }
+.min-h-screen { min-height: 100vh; }
+.leading-none { line-height: 1; }
+.gap-2 { gap: 8px; }
+.gap-3 { gap: 12px; }
